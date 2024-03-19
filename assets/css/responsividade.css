@@ -1,0 +1,196 @@
+/* RESPONSIVIDADE */
+
+/* 
+  Sessão para telas até 768px de largura:
+  - Altera o tamanho da fonte dos títulos na seção .home
+  - Define estilos para o cabeçalho (header)
+  - Estiliza o menu de navegação (navbar)
+  - Define estilos para elementos na seção .about-me
+  - Define estilos para elementos na seção .hobbies
+*/
+@media (max-width: 768px) {
+  .home .home-content .block h1 {
+    font-size: 35px;
+  }
+
+  .home .home-content .block h3 {
+    font-size: 20px;
+  }
+
+  header {
+    padding: 15px 25px;
+    position: fixed;
+    background-color: var(--color-primary);
+    border: none;
+  }
+
+  header .brand-name a {
+    color: #220808;
+  }
+
+  .hamburger .fa {
+    display: block;
+  }
+
+  .navbar {
+    position: absolute;
+    background-color: var(--color-primary);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.066), rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.874));
+    width: 100%;
+    left: 0px;
+    top: 60px;
+    padding: 15px;
+    border-top: 1px solid var(--color-light);
+    display: none;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .navbar.show {
+    display: block;
+  }
+
+  header .navbar ul li {
+    display: block;
+    margin-left: 0;
+  }
+
+  header .navbar ul li a {
+    line-height: 42px;
+    color: var(--color-light);
+    font-weight: 400;
+    margin: 0;
+  }
+
+  header .navbar ul li a::before {
+    background-color: var(--color-light);
+    height: 1px;
+  }
+
+  header .navbar ul li a.active::before {
+    text-decoration: none;
+}
+}
+
+  /* section sobre */
+  .about-me .about-content .text {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 0px;
+    padding-top: 30px;
+  }
+
+  .about-me .about-content .img {
+    flex: 0 0 100%;
+    max-width: 100%;
+    border-radius: 12px;
+  }
+
+  .hobbies .hobbies-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 0px;
+  }
+
+  .hobbies .img {
+    flex: 0 0 100%;
+    max-width: 100%;
+    border-radius: 18px;
+  }
+
+/* 
+  Sessão para telas até 500px de largura:
+  - Altera o tamanho da fonte dos títulos na seção .home
+  - Define estilos para a galeria na seção .portfolio
+*/
+@media (max-width: 500px) {
+  .home .home-content .block h1 {
+    font-size: 25px;
+  }
+
+  .home .home-content .block h3 {
+    font-size: 20px;
+  }
+
+  .home .home-content .block {
+    padding-left: 20px;
+  }
+
+  .portfolio .portfolio-gallery .item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  footer .logo {
+    font-size: 36px;
+    padding: 10px;
+  }
+  footer .social-container {
+    font-size: 18px;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+
+  footer .social-container .icon {
+    color: var(--color-light);
+    display: inline-block;
+    margin: 8px 4px;
+    transition: all 0.5s ease;
+    border: 1px solid var(--color-light);
+    border-radius: 100%;
+    padding: 10px;
+    transition: var(--transition);
+  }
+}
+/* 
+  Sessão para telas até 375px de largura:
+  - Define estilos para o cabeçalho (header)
+  - Altera o tamanho da fonte em elementos da seção .about-me
+*/
+@media (max-width: 375px) {
+  header {
+    width: 100%;
+  }
+
+  .about-me .about-content .text .info {
+    font-size: 10px;
+  }
+
+  .about-me .about-content .text p {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .about-me .about-content .text .info .data label {
+    font-size: 12px;
+  }
+
+  .about-me .about-content .text .info .data p {
+    flex: 0 0 100%;
+    font-size: 10px;
+  }
+}
+
+/* para telas muito grandes ficar somente 3 cards doportfolio por linha */
+
+@media (min-width: 1200px) {
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(360px, 1fr));
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 40px;
+  }
+}
+
+/* menu suspenso hamburguer tipo o do prof */
+
+/* 
+@media (max-width: 680px) {
+  .hamburger .fa {
+    display: block;
+  }
+}
+  
+   */

@@ -1,0 +1,57 @@
+/* FOOTER */
+
+footer {
+  padding: 80px 15px;
+  background-color: var(--color-dark);
+  height: 30vh;
+}
+
+footer .logo {
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+  font-size: 38px;
+  color: var(--color-light);
+  font-weight: 900;
+}
+
+footer .social-container {
+  flex: 0 0 100%;
+  max-width: 100%;
+  font-size: 30px;
+  text-align: center;
+  padding: 14px;
+  box-sizing: border-box;
+}
+
+footer .social-container .icon {
+  color: var(--color-light);
+  display: inline-block;
+  margin: 8px 6px;
+  transition: all 0.5s ease;
+  border: 1px solid var(--color-light);
+  border-radius: 100%;
+  padding: 14px;
+  transition: var(--transition);
+}
+
+footer .social-container .icon:hover {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  border-color: transparent;
+}
+
+/* copyright */
+
+.copyright {
+  background-color: var(--color-dark);
+  padding: 15px;
+}
+
+.copyright p {
+  color: var(--color-grey-200);
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+}

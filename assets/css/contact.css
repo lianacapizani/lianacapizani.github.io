@@ -1,0 +1,124 @@
+/* CONTATOS */
+
+.contact-us {
+  padding: 100px 15px;
+  background-color: var(--color-light);
+  border: 1px solid var(--color-light);
+}
+
+.contact-us .section-title {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contact-us .section-title h1 {
+  display: inline-block;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 0 25px;
+  color: var(--color-dark);
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.contact-us .section-title h1:before {
+  content: "";
+  left: 30%;
+  right: 30%;
+  height: 2px;
+  background-color: #9c27b0;
+  bottom: 0px;
+  position: absolute;
+}
+
+.contact-us .contact-form {
+  background-color: var(--color-light);
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 50px;
+  border: 1px solid #eeeeee;
+}
+
+.contact-us .contact-form .text {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-bottom: 20px;
+}
+
+.contact-us .contact-form .text h2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--color-dark);
+  margin: 0;
+  padding: 0;
+}
+
+.contact-us .contact-form .text p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #838383;
+  margin: 0;
+}
+
+.contact-us .contact-form .space-between {
+  justify-content: space-between;
+}
+
+.contact-us .contact-form .col-6 {
+  flex: 0 0 calc(50% - 15px);
+  max-width: calc(50% - 15px);
+}
+
+.contact-us .contact-form .col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.contact-us .contact-form .form-control {
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  resize: none;
+}
+
+.contact-us .contact-form textarea.form-control {
+  height: 140px;
+}
+
+.contact-us .contact-form .form-control:placeholder {
+  color: var(--color-grey-200);
+}
+
+.contact-us .contact-form .button {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.contact-us .contact-form .btn-submit {
+  color: var(--color-light);
+  padding: 12px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.5s ease;
+  background-color: var(--color-purple-400);
+  border: 2px solid var(--color-purple-400);
+  border-radius: 8px;
+}
+
+.contact-us .contact-form .btn-submit:hover {
+  background-color: transparent;
+  color: var(--color-purple-400);
+}

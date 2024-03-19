@@ -1,0 +1,208 @@
+/* ABOUT ME */
+
+.about-me {
+  padding: 100px 15px;
+  line-height: 1.8;
+  background-color: #fcf7f7;
+}
+
+/* Estilos para o título da seção "Sobre Mim" */
+.about-me .section-title {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.about-me .section-title h1 {
+  display: inline-block;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 0 25px;
+  color: #000000;
+  position: relative;
+  padding-bottom: 5px;}
+
+/* Estilos para o pseudo-elemento ::before do título h1 da seção "Sobre Mim" */
+.about-me .section-title h1:before {
+  content: "";
+  left: 0;
+  right: 30%;
+  height: 2px;
+  background-color: #9c27b0;
+  bottom: 0px;
+  position: absolute;
+}
+
+/* Estilos para o texto em caixa alta dentro da seção "Sobre Mim" */
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/* Estilos para o parágrafo pequeno dentro do título da seção "Sobre Mim" */
+.about-me .section-title p.small {
+  display: block;
+  font-size: 14px;
+  color: #838383;
+  font-weight: 400;
+  line-height: 2px;
+}
+
+.about-me .about-content .img {
+  flex: 0 0 33.33%;
+  /* Flexibilidade do tamanho do elemento para ocupar 1/3 da largura */
+  max-width: 33.33%;
+}
+
+.about-me .about-content .img img {
+  width: 100%;
+  border-radius: 80px 80px 200px 0px;
+  display: block;
+  -webkit-transform: rotateY(180deg);
+  /* Transformação de rotação no eixo Y */
+  transform: rotateY(180deg);
+  /* Transformação de rotação no eixo Y */
+}
+
+.about-me .about-content .text {
+  line-height: 24px;
+  flex: 0 0 66.66%;
+  /* Flexibilidade do tamanho do elemento para ocupar 2/3 da largura */
+  max-width: 66.66%;
+  /* Largura máxima de 2/3 */
+  padding-left: 40px;
+}
+
+.about-me .about-content .text h4 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #000000;
+}
+
+/* Estilos para o subtítulo h6 dentro do texto do conteúdo da "Sobre Mim" */
+.about-me .about-content .text h6 {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 20px 0;
+  color: #000000;
+}
+
+/* Estilos para o texto dentro do conteúdo da "Sobre Mim" */
+.about-me .about-content .text p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color-grey-800);
+  margin: 0 0 5px;
+}
+
+/* Estilos para as informações dentro do texto do conteúdo da "Sobre Mim" */
+.about-me .about-content .text .info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Estilos para os dados dentro das informações do texto do conteúdo da "Sobre Mim" */
+.about-me .about-content .text .info .data {
+  flex: 0 0 calc(50% - 15px);
+  /* Flexibilidade do tamanho do elemento para ocupar metade da largura com margem */
+  max-width: calc(50% - 15px);
+  /* Largura máxima de metade com margem */
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #838383;
+  padding-bottom: 10px;
+}
+
+/* Estilos para a etiqueta dentro dos dados dentro das informações do texto do conteúdo da "Sobre Mim" */
+.about-me .about-content .text .info .data label {
+  padding-right: 10px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* Estilos para os parágrafos dos dados dentro das informações da seção "Sobre Mim" */
+.about-me .about-content .text .info .data p {
+  margin: 0;
+}
+
+/* Estilos para os links sociais dentro do conteúdo da seção "Sobre Mim" */
+.about-me .about-content .text .social-links {
+  padding-top: 25px;
+}
+
+/* Estilos para os links sociais dentro do conteúdo da seção "Sobre Mim" */
+.about-me .about-content .text .social-links a {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 3px;
+  display: inline-block;
+  border: 1px solid #000000;
+  line-height: 28px;
+  text-align: center;
+  margin: 0 1;
+}
+
+/* Estilos para os links sociais quando o mouse passa por cima */
+.about-me .about-content .text .social-links a:hover {
+  background-color: transparent;
+}
+
+/* Estilos para os ícones dos links sociais */
+.about-me .about-content .text .social-links a .fa {
+  color: var(--color-light);
+  font-size: 12px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* Estilos para os ícones dos links sociais quando o mouse passa por cima */
+.about-me .about-content .text .social-links a:hover .fa {
+  color: #000000;
+}
+
+/* Estilos para o quadrado */
+.quadrado {
+  width: 150px;
+  height: 1px;
+  position: relative;
+  top: -40px;
+  /* Deslocamento para cima de 40px */
+  left: -55px;
+  /* Deslocamento para a esquerda de 55px */
+  right: -55px;
+  /* Deslocamento para a direita de 55px */
+  transform: rotate(-135deg);
+}
+
+/* Estilos para o diamante */
+.diamante {
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--color-purple-600);
+  position: relative;
+}
+
+/* Estilos para a linha 1 */
+.linha1 {
+  width: 50px;
+  position: relative;
+  margin-top: -25px;
+  border: 1px solid var(--color-purple-600);
+  transform: rotate(135deg);
+}
+
+/* Estilos para a linha 2 */
+.linha2 {
+  width: 40px;
+  position: relative;
+  margin-top: 35px;
+  border: 1px solid var(--color-purple-600);
+  transform: rotate(135deg);
+  right: 33px;
+  /* Deslocamento para a direita de 33px */
+}
