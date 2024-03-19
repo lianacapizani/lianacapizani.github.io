@@ -1,13 +1,6 @@
 /* RESPONSIVIDADE */
 
-/* 
-  Sessão para telas até 768px de largura:
-  - Altera o tamanho da fonte dos títulos na seção .home
-  - Define estilos para o cabeçalho (header)
-  - Estiliza o menu de navegação (navbar)
-  - Define estilos para elementos na seção .about-me
-  - Define estilos para elementos na seção .hobbies
-*/
+
 @media (max-width: 768px) {
   .home .home-content .block h1 {
     font-size: 35px;
@@ -93,12 +86,8 @@
     max-width: 100%;
     border-radius: 18px;
   }
+}
 
-/* 
-  Sessão para telas até 500px de largura:
-  - Altera o tamanho da fonte dos títulos na seção .home
-  - Define estilos para a galeria na seção .portfolio
-*/
 @media (max-width: 500px) {
   .home .home-content .block h1 {
     font-size: 25px;
@@ -137,11 +126,9 @@
     transition: var(--transition);
   }
 }
-/* 
-  Sessão para telas até 375px de largura:
-  - Define estilos para o cabeçalho (header)
-  - Altera o tamanho da fonte em elementos da seção .about-me
-*/
+
+
+
 @media (max-width: 375px) {
   header {
     width: 100%;
