@@ -105,24 +105,25 @@
     flex: 0 0 100%;
     max-width: 100%;
   }
-  footer .logo {
-    font-size: 36px;
-    padding: 10px;
-  }
-  footer .social-container {
-    font-size: 18px;
-    padding: 8px;
-    box-sizing: border-box;
+
+  footer{
+    height: 150px;
+    padding: 30px 15px;
   }
 
+  footer .title {
+    font-size: 34px;
+  }
+  
   footer .social-container .icon {
+    font-size: 20px;
     color: var(--color-light);
     display: inline-block;
-    margin: 8px 4px;
+    margin: 6px 4px;
     transition: all 0.5s ease;
     border: 1px solid var(--color-light);
     border-radius: 100%;
-    padding: 10px;
+    padding: 8px;
     transition: var(--transition);
   }
 }

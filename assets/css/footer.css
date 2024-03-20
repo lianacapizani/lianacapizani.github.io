@@ -1,12 +1,16 @@
 /* FOOTER */
 
 footer {
-  padding: 80px 15px;
+  padding: 50px 15px;
   background-color: var(--color-dark);
-  height: 30vh;
+  height: 200px;
 }
-
-footer .logo {
+footer.row{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .title {
   flex: 0 0 100%;
   max-width: 100%;
   text-align: center;
@@ -18,13 +22,13 @@ footer .logo {
 footer .social-container {
   flex: 0 0 100%;
   max-width: 100%;
-  font-size: 30px;
   text-align: center;
-  padding: 14px;
+  padding: 10px;
   box-sizing: border-box;
 }
 
 footer .social-container .icon {
+  font-size: 24px;
   color: var(--color-light);
   display: inline-block;
   margin: 8px 6px;

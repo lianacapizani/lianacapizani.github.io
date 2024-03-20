@@ -58,8 +58,8 @@ a {
 }
 
 .btn {
-  background-color: var(--color-purple-400);
-  border: 2px solid var(--color-purple-400);
+  background-color: var(--color-primary-light);
+  border: 2px solid var(--color-primary-light);
   padding: 8px 8px;
   border-radius: 5px;
   color: var(--color-light);
@@ -68,5 +68,5 @@ a {
 
 .btn:hover {
   background-color: transparent;
-  color: var(--color-purple-400);
+  color: var(--color-primary-light);
 }
