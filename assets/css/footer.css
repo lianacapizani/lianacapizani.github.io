@@ -17,6 +17,7 @@ footer .title {
   font-size: 38px;
   color: var(--color-light);
   font-weight: 900;
+  margin-botton: 15px;
 }
 
 footer .social-container {
