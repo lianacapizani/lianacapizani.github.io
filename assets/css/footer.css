@@ -3,7 +3,7 @@
 footer {
   padding: 70px 15px;
   background-color: var(--color-dark);
-  height: 200px;
+  height: 240px;
 }
 footer.row{
   display: flex;
