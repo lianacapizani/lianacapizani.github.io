@@ -1,0 +1,72 @@
+.sectionTitle h1 {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #000;
+  position: relative;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.sectionTitle h1::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, #4bacfb, #942dad);
+  border-radius: 2px;
+}
+
+.skills {
+  padding: 100px 15px;
+  background-color: #e4dde9;
+}
+
+.skillsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.column {
+  background-color: #282438;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  flex: 1;
+  min-width: 280px;
+  max-width: 350px;
+}
+
+.column h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2be1d5;
+}
+
+.skillItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px 10px;
+}
+
+.skillItems div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fcfcfc;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.skillItems svg {
+  font-size: 24px;
+}

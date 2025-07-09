@@ -1,0 +1,143 @@
+.aboutSection {
+  padding: 100px 15px;
+  line-height: 1.8;
+  background-color: #0f0714;
+    background: linear-gradient(180deg, #150a07, #2d0f38,#261629,#4e4256);
+}
+
+.sectionTitle h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #f9f8fb;
+  position: relative;
+  padding: 0 0 5px 10px;
+}
+
+.sectionTitle h1::before {
+  content: "";
+  position: absolute;
+  
+  bottom: 0;
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, #4b6bfb, #64ffda);
+  border-radius: 2px;
+}
+
+.aboutContent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.aboutImage {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+
+.aboutImage img {
+  width: 100%;
+  border-radius: 100px 80px 240px 0;
+  transform: rotateY(180deg);
+  display: block;
+}
+
+.aboutText {
+  flex: 0 0 66.66%;
+  max-width: 66.66%;
+  padding-left: 40px;
+  line-height: 24px;
+}
+
+.aboutText h4 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #45deba;
+}
+
+.aboutText h6 {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 20px 0;
+  color: var(--color-light);
+}
+
+.aboutText h6 span {
+  color:  #d282e0;
+}
+
+.aboutText p {
+  font-size: 15px;
+  color: #dfdfdf;
+  margin-bottom: 5px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.infoItem {
+  flex: 0 0 calc(50% - 15px);
+  max-width: calc(50% - 15px);
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f6f6f6;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.infoItem label {
+  font-weight: 600;
+  font-size: 14px;
+  padding-right: 10px;
+  color:  #c6c6c6
+}
+
+.infoItem p {
+  margin: 0;
+    font-size: 14px;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .aboutText {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-top: 30px;
+  }
+
+  .aboutImage {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .aboutImage img {
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .infoContainer {
+    font-size: 10px;
+  }
+
+  .aboutText p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .infoItem label {
+    font-size: 12px;
+  }
+
+  .infoItem p {
+    flex: 0 0 100%;
+    font-size: 10px;
+  }
+}

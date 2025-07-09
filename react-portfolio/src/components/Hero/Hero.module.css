@@ -1,0 +1,136 @@
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../../assets/images/bgtint.png");
+  background-size: cover;
+  background-position: center;
+  color: var(--color-light);
+  height: 100vh;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.homeContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  max-width: 600px;
+  padding-left: 20px;
+  border-left: 4px solid var(--color-light);
+}
+
+.homeContent h6 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.homeContent h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.homeContent h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+/* Botões */
+
+.buttons {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.btnPrimary {
+  background: linear-gradient(90deg, #d400ff70);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.btnPrimary:hover {
+  background: linear-gradient(90deg, #00c8ff65,#a0479d9c, #7300ff84);
+}
+
+.btnSecondary {
+  padding: 12px 24px;
+  border: 1px solid var(--color-light);
+  color: var(--color-light);
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.btnSecondary:hover {
+  background-color: #31ecf2;
+  color: var(--color-dark);
+    border: none;
+
+
+}
+
+/* Redes sociais */
+
+.socialContainer {
+  display: flex;
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.iconWrapper {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2); /* fundo translúcido */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.icon {
+  font-size: 24px;
+  color: var(--color-light); /* cor do ícone */
+  transition: color 0.3s;
+}
+
+.iconWrapper:hover {
+  background-color: var(--color-primary); /* muda o fundo no hover */
+  transform: scale(1.1); /* animação leve */
+}
+
+.iconWrapper:hover .icon {
+  color: #fff;
+}
+
+
+/* Responsivo */
+
+@media (max-width: 768px) {
+  .homeContent h1 {
+    font-size: 35px;
+  }
+  .homeContent h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .homeContent h1 {
+    font-size: 28px;
+  }
+  .homeContent h3 {
+    font-size: 18px;
+  }
+}
