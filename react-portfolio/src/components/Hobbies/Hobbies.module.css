@@ -1,0 +1,80 @@
+/* HOBBIES */
+
+.sectionTitle h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #000;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.sectionTitle h1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, #4bacfb, #942dad);
+  border-radius: 2px;
+}
+
+.hobbies {
+  padding: 100px 15px;
+  background-color: #e4dde9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hobbiesContent {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-right: 30px;
+}
+
+.img {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.img img {
+  width: 100%;
+  display: block;
+  /* border-radius: 80px 80px 200px 0px; */
+}
+
+.alignItemsCenter {
+  align-items: center;
+}
+
+.sectionTitle p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #404040;
+  margin: 0 0 0px;
+}
+
+@media (max-width: 768px) {
+  .hobbiesContent {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 0px;
+  }
+
+  .img {
+    flex: 0 0 100%;
+    max-width: 100%;
+    border-radius: 18px;
+  }
+}

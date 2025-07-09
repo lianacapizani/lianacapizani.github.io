@@ -1,14 +1,8 @@
-@import url(./header.css);
-@import url(./home.css);
-@import url(./about.css);
-@import url(./hobbies.css);
-@import url(./portfolio.css);
-@import url(./contact.css);
-@import url(./footer.css);
-@import url(./responsividade.css);
-
 :root {
-  --color-primary: #76029c;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+
+   --color-primary: #76029c;
   --color-primary-light: #a253bd;
   --color-dark: #0b0d0f;
   --color-light: #f1edf4;
@@ -16,27 +10,26 @@
   --color-grey-400: #939393;
   --color-grey-800: #666666;
   --transition: 0.5s;
-  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 html,
 body {
   height: 100%;
-  /* font-size: 62.5%; Equivale a 10px */
 }
 
 body {
   font-family: "Quicksand", sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
 }
 
 .container {
@@ -47,4 +40,10 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit; /* Herda a fonte do pai */
 }
