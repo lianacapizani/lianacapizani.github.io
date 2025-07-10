@@ -137,7 +137,7 @@ const projectsData = [
     technologies: ["ReactJS", "HTML", "CSS"]
   },
   {
-    id: 12,
+    id: 13,
     title: "Reuse App - React Native",
     category: "Front-End",
     image: "/assets/images/reuseapp.png",
