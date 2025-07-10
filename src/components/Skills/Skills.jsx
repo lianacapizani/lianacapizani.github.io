@@ -14,7 +14,7 @@ export default function Skills() {
   return (
     <section className={styles.skills} id='skills'>
       <div className={styles.sectionTitle}>
-        <h1>Tecnologia e Habilidades</h1>
+        <h1>Tecnologias e Habilidades</h1>
       </div>
 
       <div className={styles.skillsGrid}>
