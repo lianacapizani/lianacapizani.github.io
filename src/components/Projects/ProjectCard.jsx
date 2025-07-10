@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Projects.module.css";
-import { FaCalendarAlt, FaCodeBranch } from "react-icons/fa";
+import { FaCalendarAlt, FaCodeBranch, FaGithub, FaFigma, FaBehance, FaEye } from "react-icons/fa";
 
 export default function ProjectCard({
   title,
@@ -10,8 +10,12 @@ export default function ProjectCard({
   demoLink,
   startDate,
   status,
-  technologies
+  technologies,
+  category
 }) {
+  const isFrontend = category === "Front-End";
+  const isDesign = category === "UX/UI Design";
+
   return (
     <div className={styles.projectCard}>
       <img src={image} alt={title} className={styles.projectImage} />
@@ -45,24 +49,51 @@ export default function ProjectCard({
         <hr className={styles.separator} />
 
         <div className={styles.buttonGroup}>
-          {codeLink && (
+          {isDesign && codeLink && (
             <a
               href={codeLink}
               className={styles.viewCodeBtn}
               target="_blank"
               rel="noreferrer"
             >
-              Ver Código
+              <FaBehance style={{ marginRight: "5px" }} />
+               Projeto
             </a>
           )}
-          {demoLink && (
+
+          {isDesign && codeLink && (
             <a
               href={demoLink}
               className={styles.liveDemoBtn}
               target="_blank"
               rel="noreferrer"
             >
-              Live Demo
+              <FaFigma style={{ marginRight: "5px" }} />
+              Figma
+            </a>
+          )}
+
+          {isFrontend && codeLink && (
+            <a
+              href={codeLink}
+              className={styles.viewCodeBtn}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub style={{ marginRight: "5px" }} />
+              Código
+            </a>
+          )}
+
+          {isFrontend && demoLink && (
+            <a
+              href={demoLink}
+              className={styles.liveDemoBtn}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaEye style={{ marginRight: "5px" }} />
+              Visualizar
             </a>
           )}
         </div>

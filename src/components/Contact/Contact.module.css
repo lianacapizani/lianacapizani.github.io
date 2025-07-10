@@ -63,7 +63,7 @@
   align-items: center;
   gap: 0.6rem;
   color: #cfcfcf;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   word-break: break-word;
 }
 
@@ -89,7 +89,8 @@
 .statusTitle {
   font-weight: 600;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .status {
@@ -97,7 +98,7 @@
   align-items: center;
   gap: 0.5rem;
   color: #e5e5e5;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
 }
 
 .icon {
@@ -115,12 +116,12 @@
 }
 
 label{
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 }
 
 input, textarea {
   width: 100%;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   padding: 0.75rem;
   margin: 0.5rem 0 1rem;
   border: none;

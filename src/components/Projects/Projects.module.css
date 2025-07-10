@@ -101,7 +101,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   margin-bottom: 0.8rem;
 }
 
@@ -164,6 +164,10 @@
 .liveDemoBtn {
   font-size: 0.85rem;
   flex: 1;
+  display: inline-flex;  /* Alinha ícone + texto */
+  align-items: center;
+  justify-content: center;
+  gap: 6px; /* Espaço entre o ícone e o texto */
   text-align: center;
   padding: 0.4rem 0.5rem;
   border-radius: 10px;
