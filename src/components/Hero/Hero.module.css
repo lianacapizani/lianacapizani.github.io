@@ -55,11 +55,10 @@
   border: none;
   text-decoration: none;
   font-weight: 600;
-  transition: background 0.3s ease;
 }
 
 .btnPrimary:hover {
-  background: linear-gradient(90deg, #00c8ff65,#a0479d9c, #7300ff84);
+  background: #6b14689c;
 }
 
 .btnSecondary {

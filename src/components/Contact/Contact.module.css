@@ -13,7 +13,7 @@
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
   position: relative;
@@ -31,7 +31,7 @@
 /* Conteúdo */
 .container {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   flex-wrap: wrap;
   max-width: 1000px;
   width: 100%;
@@ -52,7 +52,7 @@
 }
 
 .contactInfo h3 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: #ffffff;
   margin-bottom: 0.5rem;
@@ -63,7 +63,7 @@
   align-items: center;
   gap: 0.6rem;
   color: #cfcfcf;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   word-break: break-word;
 }
 
@@ -115,7 +115,7 @@
 }
 
 label{
-  font-size: 0.95rem;
+  font-size: 0.85rem;
 }
 
 input, textarea {

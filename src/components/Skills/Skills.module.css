@@ -1,5 +1,5 @@
 .sectionTitle h1 {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 40px;
@@ -44,7 +44,7 @@
 }
 
 .column h2 {
-  font-size: 20px;
+  font-size: 1.2rem;
   text-align: center;
   margin-bottom: 25px;
   color: #2be1d5;
@@ -63,7 +63,7 @@
   align-items: center;
   gap: 10px;
   color: #fcfcfc;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
 }
 

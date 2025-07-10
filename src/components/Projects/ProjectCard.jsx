@@ -52,7 +52,7 @@ export default function ProjectCard({
               target="_blank"
               rel="noreferrer"
             >
-              View Code
+              Ver Código
             </a>
           )}
           {demoLink && (

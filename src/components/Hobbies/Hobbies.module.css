@@ -1,10 +1,10 @@
 /* HOBBIES */
 
 .sectionTitle h1 {
-  font-size: 35px;
+  font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   color: #000;
   position: relative;
   padding-bottom: 5px;
@@ -50,7 +50,6 @@
 .img img {
   width: 100%;
   display: block;
-  /* border-radius: 80px 80px 200px 0px; */
 }
 
 .alignItemsCenter {

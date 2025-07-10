@@ -27,10 +27,10 @@ export default function About() {
                 Iniciei minha carreira na área de design e tecnologia em 2023, integrando minha formação em Farmácia Bioquímica pela USP Ribeirão Preto e experiências anteriores em clínica de estética, administração hospitalar e inovação pelo SEBRAE.
             </p>
             <p>
-                Desde então, finalizei a formação em <strong>UX | UI Design</strong> pela Awari e estou concluindo o Tecnólogo em <strong>Web Design</strong> pela FIAP. Também obtive a certificação como <strong>Front-End Developer</strong> e ampliei conhecimentos em <strong>Marketing Digital</strong> e <strong>Desenvolvimento Mobile Híbrido</strong>.
+                Desde então, finalizei a formação em <span>UX | UI Design</span> pela Awari e estou concluindo o Tecnólogo em <span>Web Design</span> pela FIAP. Também obtive a certificação como <span>Front-End Developer</span> e ampliei conhecimentos em <span>Marketing Digital</span> e <span>Desenvolvimento Mobile Híbrido</span>.
             </p>
             <p>
-                Hoje atuo como <strong>UX/UI Designer</strong> e <strong>Desenvolvedora Front-End</strong>, criando experiências digitais simples e funcionais.  
+                Hoje atuo como <span>UX/UI Designer</span> e <span>Desenvolvedora Front-End</span>, criando experiências digitais simples e funcionais.  
                 Sigo em busca de oportunidades onde eu possa aprender, crescer e colaborar com projetos que realmente façam a diferença na vida das pessoas.
             </p>
           <div className={styles.infoContainer}>

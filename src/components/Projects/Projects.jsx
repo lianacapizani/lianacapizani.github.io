@@ -42,7 +42,7 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "LandingPage Clínica Estética - UI Design",
+    title: "LandingPage Clínica Estética UI",
     category: "UI Design",
     image: "/assets/images/landingpage clinica estetica.png",
     description: "Landing Page promocional para clínica de estética e bem-estar.",

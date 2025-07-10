@@ -1,5 +1,5 @@
 .projectsSection {
-  padding: 2rem;
+  padding: 5rem 4rem;
   background-color: #1f0d2b;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .title {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
   position: relative;
@@ -55,9 +55,10 @@
 
 .projectsGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap:3.5rem;
 }
+
 .projectCard {
   background-color: #282438;
   border-radius: 16px;
@@ -86,14 +87,14 @@
 }
 
 .projectTitle {
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-bottom: 0.5rem;
     color: #45deba;
 }
 
 .projectDescription {
-  font-size: 0.95rem;
-  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  margin-bottom: 0.8rem;
 }
 
 .projectMeta {
@@ -101,7 +102,7 @@
   justify-content: space-between;
   align-items: center;
   font-size: 0.7rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 .metaItem {
@@ -111,7 +112,7 @@
 }
 
 .status {
-  padding: 0.2rem 0.4rem;
+  padding: 0.1rem 0.4rem;
   border-radius: 12px;
   font-weight: 600;
   font-size: 0.65rem;
@@ -126,7 +127,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 .techItem {
@@ -145,7 +146,7 @@
   border: none;
   height: 1px;
   background-color: #3d3d53;
-  margin: 1rem 0;
+  margin: 0.8rem 0;
 }
 
 .projectMeta strong {
@@ -164,7 +165,7 @@
   font-size: 0.85rem;
   flex: 1;
   text-align: center;
-  padding: 0.6rem 0.5rem;
+  padding: 0.4rem 0.5rem;
   border-radius: 10px;
   font-weight: bold;
   text-decoration: none;

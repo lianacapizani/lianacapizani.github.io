@@ -1,12 +1,12 @@
 .aboutSection {
-  padding: 100px 15px;
+  padding: 80px 15px;
   line-height: 1.8;
   background-color: #0f0714;
-    background: linear-gradient(180deg, #150a07, #2d0f38,#261629,#4e4256);
+  background: linear-gradient(180deg, #150a07, #2d0f38,#261629,#4e4256);
 }
 
 .sectionTitle h1 {
-  font-size: 35px;
+  font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 25px;
@@ -18,7 +18,6 @@
 .sectionTitle h1::before {
   content: "";
   position: absolute;
-  
   bottom: 0;
   width: 100px;
   height: 4px;
@@ -47,30 +46,32 @@
 .aboutText {
   flex: 0 0 66.66%;
   max-width: 66.66%;
-  padding-left: 40px;
-  line-height: 24px;
+  padding: 0 20px 0 60px;
+  line-height: 22px;
 }
 
 .aboutText h4 {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 600;
-  color: #45deba;
+  color: #ce8cd8;
 }
 
 .aboutText h6 {
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 12px;
+font-weight: 400;
   padding: 20px 0;
-  color: var(--color-light);
+  color: #b2f7df
 }
 
-.aboutText h6 span {
-  color:  #d282e0;
+.aboutText p span {
+  color:  #f8d3ff;
+  font-weight: 600;
 }
 
 .aboutText p {
-  font-size: 15px;
-  color: #dfdfdf;
+  font-weight: 500;
+  font-size: 14px;
+  color: #efefef;
   margin-bottom: 5px;
 }
 
@@ -93,14 +94,14 @@
 
 .infoItem label {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   padding-right: 10px;
   color:  #c6c6c6
 }
 
 .infoItem p {
   margin: 0;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* Responsividade para telas menores */
