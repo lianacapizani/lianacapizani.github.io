@@ -1,6 +1,6 @@
 // About.jsx
 import styles from "./About.module.css";
-import liImage from "../../assets/images/li2.jpg";
+import liImage from "../../assets/images/li2.JPG";
 
 export default function About() {
   return (
