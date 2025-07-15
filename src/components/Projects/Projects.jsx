@@ -42,7 +42,7 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "LandingPage Clínica Estética UI",
+    title: "LandingPage Clínica Estética - UI",
     category: "UX/UI Design",
     image: "/assets/images/landingpage clinica estetica.png",
     description: "Landing Page promocional para clínica de estética e bem-estar.",
@@ -78,7 +78,7 @@ const projectsData = [
   },
   {
     id: 7,
-    title: "LandingPage Clínica - HTML e CSS",
+    title: "LandingPage Clínica Estética",
     category: "Front-End",
     image: "/assets/images/landing-tb.png",
     description: "Landing Page estática para divulgação de serviços de estética.",
@@ -90,7 +90,7 @@ const projectsData = [
   },
   {
     id: 8,
-    title: "Iara Games - HTML, CSS e JavaScript",
+    title: "Iara Games - Case FIAP",
     category: "Front-End",
     image: "/assets/images/IaraThumbnail.png",
     description: "Plataforma de games brasileiros que une cultura e diversão.",
@@ -114,7 +114,7 @@ const projectsData = [
   },
   {
     id: 10,
-    title: "RecrutaAI",
+    title: "RecrutaAI - Enterprise Challenge",
     category: "Front-End",
     image: "/assets/images/recruta.ai.png",
     description: "Landing Page para divulgação da paltaforma de recrutamentos: RecrutaAI.",
@@ -138,19 +138,19 @@ const projectsData = [
   },
   {
     id: 12,
-    title: "Planeta Consciente",
+    title: "Planeta Consciente - Global Solution ",
     category: "Front-End",
     image: "/assets/images/planetaconsciente-bckg-03.png",
     description: "Landing page interativa sobre energias renováveis e sustentabilidade.",
     codeLink: "https://github.com/lianacapizani/planet-conscious-landingpage",
-    demoLink: "https://rate-the-book.vercel.app/",
+    demoLink: "https://planeta-consciente-gs.vercel.app/",
     startDate: "Out 2024",
     status: "Completed",
     technologies: ["ReactJS", "HTML", "CSS"]
   },
   {
     id: 13,
-    title: "Reuse App - React Native",
+    title: "Reuse App - Case FIAP",
     category: "Front-End",
     image: "/assets/images/reuseapp.png",
     description: "App sustentável para incentivo ao reuso de produtos e objetos.",
@@ -158,8 +158,21 @@ const projectsData = [
     demoLink: "",
     startDate: "Abr 2024",
     status: "Completed",
-    technologies: ["ReactJS", "HTML", "CSS"]
+    technologies: ["React Native", "HTML", "CSS", "TypeScript"]
+  },
+    {
+    id: 14,
+    title: "Alerta Já - Global Solution",
+    category: "Front-End",
+    image: "/assets/images/alertaja.jpeg",
+    description: "App criado para um desafio da Global Solution com recursos úteis para desastres naturais.",
+    codeLink: "https://github.com/lianacapizani/global-solution-wd",
+    demoLink: "https://drive.google.com/file/d/1jGVWB9-BQ-coob9yHnHSLdwe2VY_vp8s/view?usp=sharing",
+    startDate: "Jun 2024",
+    status: "Completed",
+    technologies: ["React Native", "HTML", "CSS", "JavaScript"]
   }
+  
 ];
 
 const categories = ["All", "UX/UI Design", "Front-End"];

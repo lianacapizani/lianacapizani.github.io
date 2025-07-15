@@ -40,17 +40,22 @@
   color: #bbb;
   font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color  0.3s ease;
 }
 
 .filterBtn:hover {
   background-color: var(--color-primary);
   color: white;
+  transition: transform 0.3s ease;
+
 }
+
+
 
 .active {
   background-color: var(--color-primary);
   color: white;
+   transform: translateY(-4px);
 }
 
 .projectsGrid {
