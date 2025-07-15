@@ -155,7 +155,7 @@ const projectsData = [
     image: "/assets/images/reuseapp.png",
     description: "App sustentável para incentivo ao reuso de produtos e objetos.",
     codeLink: "https://github.com/lianacapizani/planeta-consciente-gs",
-    demoLink: "",
+    demoLink: "https://drive.google.com/file/d/1eOxX9WvMJrH1LTPzLt2C3dd53mWMmbob/view?usp=sharing",
     startDate: "Abr 2024",
     status: "Completed",
     technologies: ["React Native", "HTML", "CSS", "TypeScript"]
