@@ -26,7 +26,9 @@ export default function Hero() {
         <div className={styles.homeContent}>
           <h6>Olá, me chamo</h6>
           <h1>Liana Karla Capizani</h1>
-          <h3>Web Designer - Front-End Developer - UX/UI Designer</h3>
+          <h3>Web Designer - Front-End Developer - UX/UI Designer
+          
+          </h3>
 
           <div className={styles.buttons}>
             <a
