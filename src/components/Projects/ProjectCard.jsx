@@ -19,11 +19,9 @@ export default function ProjectCard({
   return (
     <div className={styles.projectCard}>
       <img src={image} alt={title} className={styles.projectImage} />
-
       <div className={styles.projectContent}>
         <h3 className={styles.projectTitle}>{title}</h3>
         <p className={styles.projectDescription}>{description}</p>
-
         <div className={styles.projectMeta}>
           <span className={styles.metaItem}>
             <FaCalendarAlt className={styles.icon} />
