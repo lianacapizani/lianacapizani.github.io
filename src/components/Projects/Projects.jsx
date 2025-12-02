@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import styles from "./Projects.module.css";
+import { useState } from "react";
 import ProjectCard from "./ProjectCard";
+import styles from "./Projects.module.css";
 
 
 const projectsData = [
@@ -156,7 +156,7 @@ const projectsData = [
     description: "App sustentável para incentivo ao reuso de produtos e objetos.",
     codeLink: "https://github.com/lianacapizani/planeta-consciente-gs",
     demoLink: "https://drive.google.com/file/d/1eOxX9WvMJrH1LTPzLt2C3dd53mWMmbob/view?usp=sharing",
-    startDate: "Abr 2024",
+    startDate: "Mai 2025",
     status: "Completed",
     technologies: ["React Native", "HTML", "CSS", "TypeScript"]
   },
@@ -168,9 +168,21 @@ const projectsData = [
     description: "App criado para um desafio da Global Solution com recursos úteis para desastres naturais.",
     codeLink: "https://github.com/lianacapizani/global-solution-wd",
     demoLink: "https://drive.google.com/file/d/1jGVWB9-BQ-coob9yHnHSLdwe2VY_vp8s/view?usp=sharing",
-    startDate: "Jun 2024",
+    startDate: "Abr 2025",
     status: "Completed",
     technologies: ["React Native", "HTML", "CSS", "JavaScript"]
+  },
+  {
+    id: 15,
+    title: "CuidaCare - StartUpOne",
+    category: "UX/UI Design",
+    image: "/assets/images/cuidacare-cover.png",
+    description: "App criado para conectar cuidadores a pessoas com deficiência de forma simples e segura",
+    codeLink: "https://www.behance.net/gallery/239698927/CuidaCare",
+    demoLink: "https://www.figma.com/proto/v9XjYJ1dhxdaq7nxtK3L0K/CuidaCare---Cuidando-com-carinho--PCDS---Visualizar-?node-id=3154-9653&p=f&t=rrmeYdy3kgBy6v7S-1&scaling=scale-down&content-scaling=fixed&page-id=8%3A43&starting-point-node-id=143%3A8389&show-proto-sidebar=1",
+    startDate: "Jun 2025",
+    status: "Completed",
+    technologies: ["Miro", "Figma"]
   }
   
 ];
