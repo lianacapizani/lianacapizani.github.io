@@ -81,7 +81,7 @@ const projectsData = [
     title: "LandingPage Clínica Estética",
     category: "Front-End",
     image: "/assets/images/landing-tb.png",
-    description: "Landing Page estática para divulgação de serviços de estética.",
+    description: "App criado para incentivar alunos com gamificação, premiando desempenho, saúde e presença nas aulas de Educação Física.",
     codeLink: "https://github.com/lianacapizani/landingpage-estetica",
     demoLink: "https://landingpage-estetica.vercel.app/",
     startDate: "Abr 2024",
@@ -181,6 +181,18 @@ const projectsData = [
     codeLink: "https://www.behance.net/gallery/239698927/CuidaCare",
     demoLink: "https://www.figma.com/proto/v9XjYJ1dhxdaq7nxtK3L0K/CuidaCare---Cuidando-com-carinho--PCDS---Visualizar-?node-id=3154-9653&p=f&t=rrmeYdy3kgBy6v7S-1&scaling=scale-down&content-scaling=fixed&page-id=8%3A43&starting-point-node-id=143%3A8389&show-proto-sidebar=1",
     startDate: "Jun 2025",
+    status: "Completed",
+    technologies: ["Miro", "Figma"]
+  },
+   {
+    id: 16,
+    title: "SuperAtivo - Enterprise Challenge",
+    category: "Front-End",
+    image: "/assets/images/superativo-cover.png",
+    description: "App criado para conectar cuidadores a pessoas com deficiência de forma simples e segura",
+    codeLink: "https://github.com/lianacapizani/superativo-app",
+    demoLink: "https://superativo-app.vercel.app/",
+    startDate: "Ago 2025",
     status: "Completed",
     technologies: ["Miro", "Figma"]
   }
