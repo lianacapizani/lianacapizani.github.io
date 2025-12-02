@@ -194,7 +194,7 @@ const projectsData = [
     demoLink: "https://superativo-app.vercel.app/",
     startDate: "Ago 2025",
     status: "Completed",
-    technologies: ["Miro", "Figma"]
+    technologies: ["React Native", "Expo", "Expo Router", "Firebase Auth", "Firestore", "JavaScript"]
   }
   
 ];
